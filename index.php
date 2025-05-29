@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="description" content="Volume of a Sphere, with query strings in PHP" />
   <meta name="keywords" content="mths, ics2o" />
-  <meta name="author" content="Mr. Coxall" />
+  <meta name="author" content="Olivia Ten Den" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href=".ko/css/style.css" />
   <link
@@ -48,7 +48,7 @@
         $roundedVolume = round($volume, 2);
 
         echo "<p>If the radius = " . $radius . " cm</p>";
-        echo "<p>The volume is: " . $roundedVolume . "cm3</p>";
+        echo "<p>The volume is: " . $roundedVolume . "cm³</p>";
 
         ?>
         <div id="volume">
