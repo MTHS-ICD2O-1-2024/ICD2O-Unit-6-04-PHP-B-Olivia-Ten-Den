@@ -38,7 +38,7 @@
       <br />
       <div class="page-content-answer">
         <?php
-        echo $radius = $_GET['radius'];
+        $radius = $_GET['radius'];
 
         if ($radius == null) {
           $radius = 0;
